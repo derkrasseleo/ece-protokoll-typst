@@ -1,4 +1,4 @@
-#import "layout.typ"
+//#import "layout.typ"
 #import "@preview/unify:0.7.1": num,qty,numrange,qtyrange,unit
 #import "@preview/hydra:0.6.0": hydra
 
@@ -31,7 +31,7 @@
 #let name = "Paul Bichl, Leo Traußnigg"
 #let date = "02.03.2025"
 
-#let logo = image("Bilder/logo_FHJ_ECE_white.eps.png", width: 3in, height: 1in)
+#let logo = image("Bilder/logo_FHJ_ECE_white.png", width: 3in, height: 1in)
 
 #show figure.caption: it => [
     #text(weight: "bold")[
