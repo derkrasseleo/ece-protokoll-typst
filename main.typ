@@ -38,6 +38,7 @@
 #let subtitle = "Laborübung 1"
 #let name = "Paul Bichl, Leo Traußnigg"
 #let date = "02.03.2025"
+#let endDate = "03.03.2025"
 
 #let logo = image("Bilder/logo_FHJ_ECE_white.png", width: 3in, height: 1in)
 
@@ -113,6 +114,7 @@ Diesmal keine Berechnungen, aber
 
 = Geräteverzeichnis
 \
+\
 - Keysight U1733C (LCR-Messgerät)
 - Keysight InfiniiVision DSO-X 3014T (Oszilloskop)
 - Keysight 33500B Series (Signalgenerator)
@@ -128,4 +130,4 @@ Diesmal keine Berechnungen, aber
   [#image("Bilder/Unterschrift_Leo_Traussnigg.png", width: 130%)], 
   [#align(right)[#image("Bilder/Unterschrift_Paul_Bichl.png", width: 60%)]],
   [Leo Traußnigg], [#align(right)[Paul Bichl]],
-  [#date], [#align(right)[#date]])]
+  [#endDate], [#align(right)[#endDate]])]
