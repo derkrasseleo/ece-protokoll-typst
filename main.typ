@@ -26,6 +26,14 @@
   content
 ]
 
+#show heading.where(
+  level: 1
+): it => text(
+  size: 18pt,
+  weight: "bold",
+  it.numbering + " " + it.body,
+)
+
 #let title = "Analoge Signalverarbeitung"
 #let subtitle = "Laborübung 1"
 #let name = "Paul Bichl, Leo Traußnigg"
