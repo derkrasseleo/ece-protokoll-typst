@@ -5,9 +5,6 @@
 pagebreak()
 
 heading("Geräteverzeichnis")
-
-linebreak()
-
 list(
 [Keysight U1733C (LCR-Messgerät)],
 [Keysight InfiniiVision DSO-X 3014T(Oszilloskop)],

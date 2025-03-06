@@ -20,7 +20,10 @@ set text(font: ("Cambria", "Caladea"), size: 11pt)
 // set heading(numbering: "1.")
 // show heading.where(level: 1): it => pagebreak(weak: true) + it
 set par(justify: true)
-set block(above: 1.5em)
+set block(above: 1.25em)
+//set par(above: 5em)
+show heading: set block(below: 1.25em)
+set par(leading: 1.25em)
 
 let code(content) = block[
   #set text(font: "Courier New")
