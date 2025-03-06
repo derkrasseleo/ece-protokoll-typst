@@ -17,11 +17,11 @@ set page(paper: "a4",
 })
 set text(font: ("Cambria", "Caladea"), size: 11pt)
 
-// set heading(numbering: "1.")
-// show heading.where(level: 1): it => pagebreak(weak: true) + it
+show heading.where(level: 1): it => pagebreak(weak: true) + it
 set par(justify: true)
 set block(above: 1.25em)
-//set par(above: 5em)
+set figure(gap: 1.25em)
+
 show heading: set block(below: 1.25em)
 set par(leading: 1.25em)
 
@@ -79,6 +79,4 @@ pagebreak()
 counter(page).update(1)
 set page(numbering: "1", number-align: right)
 body
-  //align(center, text(p_title, size: 2em))
-//body
 }

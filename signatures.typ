@@ -7,10 +7,10 @@ pagebreak()
 heading("Geräteverzeichnis")
 list(
 [Keysight U1733C (LCR-Messgerät)],
-[Keysight InfiniiVision DSO-X 3014T(Oszilloskop)],
+[Keysight InfiniiVision DSO-X 3014T (Oszilloskop)],
 [Keysight 33500B Series (Signalgenerator)],
 [Keysight 1233A (Handmultimeter)],
-[Keysight 34450A (Tischmultimeter))])
+[Keysight 34450A (Tischmultimeter)])
 
 pagebreak()
 

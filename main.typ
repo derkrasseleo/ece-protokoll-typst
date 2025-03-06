@@ -12,13 +12,15 @@
 #figure(image("Bilder/schematics/ET2_LAB4_RLC.png", width: 75%), caption: [Das ist eine Schaltung])
 
 == Berechnungen 
-$ integral_(t=0)^(t=1)(sqrt(a^2+b^2)) $
+$ integral_(t=0)^(t=1)(sqrt(a^2 dot b^2)) $
 $ sum_(k=0)^n k $
 $ lim_(n -> infinity) (1 / n^2) = 0 $
 
 #pagebreak()
 
 == Code
+
+=== C-Code
 
 ```c
 #include <stdio.h>
@@ -28,6 +30,8 @@ int main(void)
   printf("Hello World");
 }
 ```
+
+=== Python-Code
 
 ```py
 import matplotlib
@@ -54,6 +58,8 @@ if True:
 
 
 == Schluss
-#lorem(500)
+#lorem(400)
+
+= Test (Automatischer pagebreak)
 
 #show: signatures
