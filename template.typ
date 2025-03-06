@@ -2,9 +2,10 @@
 #import "@preview/hydra:0.6.0": hydra
 
 #let logo = image("Bilder/logo_FHJ_ECE_white.png", width: 3in, height: 1in)
-// (body, title:"Title")
+
 #let template(title:"Titel", subtitle:"Subtitel", names:"Max Mustermann", startDate:"01.01.2000", body) = {
-    set text(lang: "de", region: "at")
+  
+set text(lang: "de", region: "at")
 set page(paper: "a4", 
   margin: (bottom: 4cm, top: 2.5cm, left: 2.5cm, right: 2.5cm),
   header: context {
@@ -53,9 +54,9 @@ show figure.caption.where(
 align(right + top, logo)
 
 align(center + horizon, block[
-#text(weight: "bold", size: 24pt, title)
+#text(weight: "bold", size: 20pt, title)
 
-#text(weight: "bold", size: 20pt, subtitle)
+#text(weight: "bold", size: 16pt, subtitle)
 ])
 
 align(left + bottom, block[
