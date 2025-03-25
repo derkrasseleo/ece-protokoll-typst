@@ -18,9 +18,9 @@ heading("Unterschriften")
 
 align(bottom)[
   #table(stroke: none, columns: (2fr, auto), 
-  [#image("Bilder/Unterschrift_Leo_Traussnigg.png", width: 130%)], 
-  [#align(right)[#image("Bilder/Unterschrift_Paul_Bichl.png", width: 60%)]],
-  [Leo Traußnigg], [#align(right)[Paul Bichl]],
+  [#image("Bilder/Unterschrift_Autor1.png", width: 130%)], 
+  [#align(right)[#image("Bilder/Unterschrift_Autor2.png", width: 60%)]],
+  [Autor1], [#align(right)[Autor2]],
   [#endDate], [#align(right)[#endDate]]
   )]
 }
