@@ -1,7 +1,7 @@
 #import "template.typ": *
 #import "signatures.typ": *
 
-#show: template.with(title: "Labor", subtitle: "Laborübung 1", names: "Paul Bichl, Leo Traußnigg", startDate: "02.03.2025")
+#show: template.with(title: "Labor", subtitle: "Laborübung 1", names: "Autor1, Autor2", startDate: "02.03.2025")
 
 = Operationsverstärker
 == Einleitung
